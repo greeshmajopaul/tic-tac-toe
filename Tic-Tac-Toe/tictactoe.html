@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/tictactoe.css">
+    <script src="JS/tictactoe.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    
+    <h1>Tic Tac Toe</h1>
+    <div class="txt1">Game starts by just Tap on box</div>
+    <div class="txt1">First Player starts as Player X And Second Player as Player 0</div>
+    <div class="container">
+        <div id="txtmsg"></div>
+        <div class="container1">
+            <div class="box" id="btn1" onclick="myfn(this.id);checkwin()"></div>
+            <div class="box" id="btn2" onclick="myfn(this.id);checkwin()"></div>
+            <div class="box boxstyle1" id="btn3" onclick="myfn(this.id);checkwin()"></div>
+        </div>
+        <div class="container1">
+            <div class="box" id="btn4" onclick="myfn(this.id);checkwin()"></div>
+            <div class="box" id="btn5" onclick="myfn(this.id);checkwin()"></div>
+            <div class="box boxstyle1" id="btn6" onclick="myfn(this.id);checkwin()"></div>
+        </div>
+        <div class="container1">
+            <div class="box boxstyle2" id="btn7" onclick="myfn(this.id);checkwin()"></div>
+            <div class="box boxstyle2" id="btn8" onclick="myfn(this.id);checkwin()"></div>
+            <div class="box boxstyle2 boxstyle1" id="btn9" onclick="myfn(this.id);checkwin()"></div>
+        </div>
+        <div class="start"><button id="start" onclick="restart()">Restart</button></div>
+    </div>
+</div>
+</body>
+</html>
